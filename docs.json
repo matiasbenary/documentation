@@ -1,0 +1,127 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "aspen",
+  "name": "Trezu Docs",
+  "colors": {
+    "primary": "#0953FF",
+    "light": "#55D799",
+    "dark": "#0D9373"
+  },
+  "favicon": "assets/favicon.svg",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "home"
+        ]
+      },
+      {
+        "group": "Concepts",
+        "pages": [
+          "protocol/basics",
+          {
+            "group": "Accounts / Contracts",
+            "pages": [
+              "protocol/account-model",
+              "protocol/account-id",
+              "protocol/access-keys"
+            ]
+          },
+          {
+            "group": "Transactions",
+            "pages": [
+              "protocol/transactions",
+              "protocol/transaction-anatomy",
+              "protocol/gas",
+              "protocol/transaction-execution"
+            ]
+          },
+          {
+            "group": "Data Flow",
+            "pages": [
+              "protocol/data-flow/near-data-flow",
+              "protocol/data-flow/token-transfer-flow"
+            ]
+          },
+          {
+            "group": "Tokens",
+            "pages": [
+              "protocol/network/tokens",
+              "protocol/network/token-loss"
+            ]
+          },
+          {
+            "group": "Storage",
+            "pages": [
+              "protocol/storage/storage-staking",
+              "protocol/storage/decentralized-storage"
+            ]
+          },
+          {
+            "group": "Network",
+            "pages": [
+              "protocol/network/validators",
+              "protocol/network/networks",
+              "protocol/network/epoch",
+              "protocol/network/runtime"
+            ]
+          },
+          "protocol/architecture"
+        ]
+      },
+      {
+        "group": "Primitives",
+        "pages": [
+          "primitives/what-is",
+          {
+            "group": "Fungible Tokens (FT)",
+            "pages": [
+              "primitives/ft/standard",
+              "primitives/ft/ft",
+              "primitives/ft/sdk-contract-tools"
+            ]
+          },
+          {
+            "group": "Non-Fungible Tokens (NFT)",
+            "pages": [
+              "primitives/nft/standard",
+              "primitives/nft/nft",
+              "primitives/nft/sdk-contract-tools"
+            ]
+          },
+          {
+            "group": "Linkdrops",
+            "pages": [
+              "primitives/linkdrop/standard",
+              "primitives/linkdrop/linkdrop"
+            ]
+          },
+          "protocol/network/staking",
+          "primitives/oracles",
+          "primitives/dao",
+          "primitives/dex",
+          "primitives/didnear",
+          {
+            "group": "Lockup Contracts",
+            "pages": [
+              "primitives/lockup/introduction",
+              "primitives/lockup/lockup"
+            ]
+          },
+          {
+            "group": "Liquid Staking",
+            "pages": [
+              "primitives/liquid-staking/liquid-staking",
+              "primitives/liquid-staking/deploy-your-own-contract"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/assets/menu/logo-light.svg",
+    "dark": "/assets/menu/logo-dark.svg"
+  }
+}
